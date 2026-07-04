@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/SistemaFinanceiro1.0.iml" filepath="$PROJECT_DIR$/SistemaFinanceiro1.0.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Sistema financeiro 0.1.iml" filepath="$PROJECT_DIR$/Sistema financeiro 0.1.iml" />
+>>>>>>> 7cfb0262d99e5c9b089909112c714a72b5945b02
     </modules>
   </component>
 </project>
