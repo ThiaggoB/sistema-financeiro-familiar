@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Usuario {
 
     // ==========================
@@ -7,9 +10,11 @@ public class Usuario {
     private String nome;
     private String sobrenome;
     private int idade;
-    private double salario;
-    private double despesas;
+    private Double salario;
     private int genero;
+    private List<Meta> metas = new ArrayList<>();
+    private  List<Despesa> despesas = new ArrayList<>();
+
 
     public Usuario(String nome, String sobrenome, int idade, int genero, double salario) {
         this.nome = nome;
@@ -19,14 +24,6 @@ public class Usuario {
         this.genero = genero;
     }
 
-    public Usuario(String nome, String sobrenome, int idade, int genero, double salario, double despesas) {
-        this.nome = nome;
-        this.sobrenome = sobrenome;
-        this.salario = salario;
-        this.idade = idade;
-        this.genero = genero;
-        this.despesas = despesas;
-    }
 
     // ==========================
     // GETTERS E SETTERS
@@ -53,24 +50,50 @@ public class Usuario {
        return idade;
    }
 
-    public void setSalario(double salario) {
-       this.salario = salario;
-   }
    public double getSalario() {
-       return salario;
+        return salario;
    }
 
+    public List<Despesa> getDespesas() {
+        return despesas;
+    }
 
-   public void setDespesas(double despesas) {
-       this.despesas = despesas;
-   }
-   public double getDespesas() {
-       return despesas;
-   }
+    public List<Meta> getMetas() {
+        return metas;
+    }
+
+    // ==========================
+    // DESPESAS
+    // ==========================
+
+    public void adicionarDespesa(Despesa despesa) {
+        despesas.add(despesa);
+    }
+
+    public void removerDespesas(Despesa despesa) {
+        despesas.remove(despesa);
+    }
 
 
-    public void setGenero(int genero) {
-        this.genero = genero;
+    public double getSomaDespesas() {
+        double soma = 0.0;
+        for (Despesa despesas1 : despesas) {
+            soma += despesas1.getValorDespesa();
+        }
+        return soma;
+
+    }
+
+    // ==========================
+    // METAS
+    // ==========================
+
+    public void adicionarMeta(Meta meta){
+        metas.add(meta);
+    }
+
+    public void removerMetas(Meta meta) {
+        metas.remove(meta);
     }
 
     // ==========================
@@ -78,17 +101,17 @@ public class Usuario {
     // ==========================
 
     public double getSaldo() {
-        return getSalario() - getDespesas();
+        return getSalario() - getSomaDespesas();
     }
     public double getSalarioAnual() {
         return getSalario() * 12;
     }
     public double getPercentualGasto (){
-        return (getDespesas() / getSalario()) * 100;
+        return (getSomaDespesas() / getSalario()) * 100;
 
     }
     public double getPercentualLivre()  {
-        return ((getSalario() - getDespesas()) / getSalario()) * 100;
+        return ((getSalario() - getSomaDespesas()) / getSalario()) * 100;
 
     }
 

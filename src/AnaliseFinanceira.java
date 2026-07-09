@@ -1,6 +1,6 @@
 public class AnaliseFinanceira {
 
-    public String gerSituacao(Usuario usuario) {
+    public String getSituacao(Usuario usuario) {
         if (usuario.getSaldo() >= 1000) {
             return "Situação: Normal\nRecomendação: Operações podem seguir sem restrições.";
         } else if (usuario.getSaldo() >= 200) {
