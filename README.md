@@ -1,97 +1,76 @@
-# 💰 Sistema Financeiro Familiar
+<h2 align="center">💰 Sistema Financeiro Familiar</h2>
 
-Cada nova funcionalidade implementada representa um conteúdo recém-aprendido. O objetivo não é apenas criar um sistema financeiro, mas documentar minha evolução como desenvolvedor ao longo da graduação.
+<p align="center">
+Backend Java Project • Financial Management System
+</p>
 
-Sistema desenvolvido em **Java** com o objetivo de aplicar, na prática, todos os conhecimentos adquiridos durante minha formação em Engenharia de Software.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-25-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/OOP-Architecture-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-In_Development-success?style=for-the-badge">
+</p>
 
-Este projeto evolui continuamente conforme novos conceitos são aprendidos, funcionando como meu principal projeto de estudos e portfólio.
+<table>
+<tr>
+<td width="25%">
 
----
+### 👤 Usuário
 
-# 📖 Objetivo
+- ✔ Cadastro
+- ✔ Perfil
 
-Criar um sistema capaz de auxiliar no controle financeiro pessoal e familiar, permitindo o gerenciamento de receitas, despesas, metas financeiras e futuras análises inteligentes.
+</td>
 
----
+<td width="25%">
 
-# 🚀 Funcionalidades atuais
+### 💰 Despesas
 
-- Cadastro de usuário
-- Cadastro de múltiplas despesas
-- Cadastro de múltiplas metas financeiras
-- Cálculo automático de:
-  - Saldo
-  - Salário anual
-  - Percentual de gastos
-  - Percentual livre
-- Análise financeira baseada no saldo disponível
-- Organização utilizando Programação Orientada a Objetos (POO)
+- ✔ Única
+- ✔ Recorrente
+- ✔ Temporária
+- ✔ Histórico
 
----
+</td>
 
-# 🛠 Tecnologias
+<td width="25%">
 
-- Java
-- IntelliJ IDEA
-- Git
-- GitHub
+### 🎯 Metas
 
----
+- ✔ Cadastro
+- ✔ Progresso
+- ✔ Histórico
 
-# 📚 Conceitos aplicados
+</td>
 
-- Classes e Objetos
-- Encapsulamento
-- Construtores
-- Métodos
-- Organização de responsabilidades
-- ArrayList
-- For-each
-- Matrizes
-- Refatoração
+<td width="25%">
 
----
+### 📊 Relatórios
 
-# 📌 Roadmap
+- ✔ Saldo
+- ✔ Percentuais
+- ✔ Análises
 
-## Versão atual (v0.3)
+</td>
+</tr>
+</table>
 
-- [x] Cadastro de usuário
-- [x] Cadastro de despesas
-- [x] Cadastro de metas
-- [x] Organização em múltiplas classes
-- [x] Refatoração da arquitetura
-- [x] Utilização de listas dinâmicas
+```mermaid
+flowchart TD
+    Main --> Services
+    Main --> View
+    Services --> Entities
+    Entities --> Enums
+```
 
-## Próximas versões
+## 🚀 Roadmap
 
-- [ ] Menu interativo
-- [ ] Editar despesas
-- [ ] Remover despesas
-- [ ] Editar metas
-- [ ] Remover metas
-- [ ] Valor guardado nas metas
-- [ ] Datas nas despesas
+- [x] Cadastro de usuários
+- [x] Metas financeiras
+- [x] Histórico
+- [x] Polimorfismo
+- [x] Arquitetura em camadas
 - [ ] Persistência em arquivos
 - [ ] Banco de dados
-- [ ] Interface gráfica
-- [ ] API
-- [ ] Aplicação Web
-
----
-
-# 📈 Evolução
-
-Este projeto **não possui uma versão final definida**.
-
-A ideia é evoluí-lo continuamente conforme novos conteúdos forem estudados durante a graduação, registrando cada melhoria através do Git e do GitHub.
-
----
-
-# 👨‍💻 Autor
-
-**Thiaggo Bueno**
-
-Estudante de Engenharia de Software.
-
-Projeto desenvolvido para estudo, prática e evolução profissional.
+- [ ] Spring Boot
+- [ ] API REST
+- [ ] Interface Web
