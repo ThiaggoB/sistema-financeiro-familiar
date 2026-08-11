@@ -158,10 +158,48 @@ D --> E
 
 ---
 
+## 🛠 Tech Stack
+
 <p align="center">
 
 <img src="https://skillicons.dev/icons?i=java,git,github,idea"/>
 
 </p>
 
+<p align="center">
 
+Java 25 • Object-Oriented Programming • Layered Architecture • Git
+
+</p>
+
+## 🚀 Roadmap
+
+### Current Version
+
+✅ User Management
+
+✅ Expense Types
+
+✅ Financial Analysis
+
+✅ Goals
+
+✅ Expense History
+
+---
+
+### Next Version
+
+⬜ Data Persistence
+
+⬜ Database Integration
+
+⬜ Spring Boot
+
+⬜ REST API
+
+⬜ Authentication
+
+⬜ Dashboard
+
+⬜ Web Interface
