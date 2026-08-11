@@ -203,3 +203,92 @@ Java 25 • Object-Oriented Programming • Layered Architecture • Git
 ⬜ Dashboard
 
 ⬜ Web Interface
+
+---
+
+# 📈 Project Evolution
+
+<table align="center">
+
+<tr>
+<th>Version</th>
+<th>Main Evolution</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td><b>v0.1</b></td>
+<td>Initial Java application with user, expenses and goals.</td>
+<td>✅ Completed</td>
+</tr>
+
+<tr>
+<td><b>v0.2</b></td>
+<td>Refactoring to Object-Oriented Programming with better class organization.</td>
+<td>✅ Completed</td>
+</tr>
+
+<tr>
+<td><b>v0.3</b></td>
+<td>Dynamic lists, menus and architecture improvements.</td>
+<td>✅ Completed</td>
+</tr>
+
+<tr>
+<td><b>v0.4</b></td>
+<td>Expense types (One-time, Recurring and Temporary), history and automatic management.</td>
+<td>✅ Current</td>
+</tr>
+
+<tr>
+<td><b>v0.5</b></td>
+<td>Data persistence (Files).</td>
+<td>🚧 Planned</td>
+</tr>
+
+<tr>
+<td><b>v0.6</b></td>
+<td>Database integration.</td>
+<td>📅 Planned</td>
+</tr>
+
+<tr>
+<td><b>v0.7</b></td>
+<td>Spring Boot + REST API.</td>
+<td>📅 Planned</td>
+</tr>
+
+<tr>
+<td><b>v1.0</b></td>
+<td>Complete Web Application.</td>
+<td>🎯 Goal</td>
+</tr>
+
+</table>
+
+---
+
+```text
+v0.1 ───────────────► Java Fundamentals
+          │
+          ▼
+v0.2 ───────────────► Object-Oriented Programming
+          │
+          ▼
+v0.3 ───────────────► Refactoring & Architecture
+          │
+          ▼
+v0.4 ───────────────► Expense Management + History
+          │
+          ▼
+v0.5 ───────────────► File Persistence
+          │
+          ▼
+v0.6 ───────────────► Database
+          │
+          ▼
+v0.7 ───────────────► Spring Boot REST API
+          │
+          ▼
+v1.0 ───────────────► Web Application
+```
