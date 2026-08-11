@@ -109,3 +109,21 @@ Ao invés de criar diversos projetos pequenos, a proposta é expandir continuame
 </div>
 
 ---
+
+## 🚀 Current Progress
+
+```text
+██████████████████░░░░░░░░░░░░░░░░░ 60%
+
+✔ Core System
+✔ Object-Oriented Programming
+✔ Financial History
+✔ Automatic Expense Management
+
+Next:
+→ File Persistence
+→ Database
+→ Spring Boot
+→ REST API
+→ Web Interface
+```
