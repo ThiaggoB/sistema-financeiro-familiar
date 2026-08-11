@@ -160,16 +160,4 @@ D --> E
 
 ---
 
-</div>
 
-<br>
-
-| Layer | Responsibility |
-|:------|:---------------|
-| 🚀 application | Application entry point |
-| ⚙ services | Business rules |
-| 🖥 view | User interaction |
-| 📦 entities | Domain models |
-| 🏷 enums | Enumerations |
-
----
