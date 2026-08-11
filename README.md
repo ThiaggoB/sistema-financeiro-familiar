@@ -129,33 +129,36 @@ Next:
 ```
 ---
 
-# 🏗 Architecture
+---
 
-<div align="center">
+# 🏗️ Architecture
 
-```text
-                    🚀 application
+```mermaid
+flowchart TD
 
-                          │
+A["🚀 application"]
+B["⚙️ services"]
+C["🖥️ view"]
+D["📦 entities"]
+E["🏷️ enums"]
 
-        ┌─────────────────┴─────────────────┐
-
-        │                                   │
-
-   ⚙ services                         🖥 view
-
-        │
-
-        ▼
-
-   📦 entities
-
-        │
-
-        ▼
-
-    🏷 enums
+A --> B
+A --> C
+B --> D
+D --> E
 ```
+
+<br>
+
+| Layer | Description |
+|:------|:------------|
+| 🚀 application | Starts the application and initializes the system. |
+| ⚙️ services | Contains the business rules and managers. |
+| 🖥️ view | Handles console interaction with the user. |
+| 📦 entities | Represents the application's domain objects. |
+| 🏷️ enums | Enumerations shared across the project. |
+
+---
 
 </div>
 
