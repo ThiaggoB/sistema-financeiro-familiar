@@ -288,3 +288,5 @@ Backend Java Developer
 
 GitHub:
 https://github.com/ThiaggoB
+linkedin: https://www.linkedin.com/in/thiaggo-bueno-94b57a38a/
+Gmail: thiaggobueno.dev@gmail.com
