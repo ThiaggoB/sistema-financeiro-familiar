@@ -35,3 +35,77 @@ Projeto desenvolvido para aplicar conceitos de **Programação Orientada a Objet
 **Sistema Financeiro Familiar** é um projeto de longo prazo desenvolvido para consolidar conhecimentos em Java através da evolução contínua de um único sistema.
 
 Ao invés de criar diversos projetos pequenos, a proposta é expandir continuamente esta aplicação, incorporando novos conceitos aprendidos durante a graduação e os estudos independentes, mantendo uma arquitetura organizada e escalável.
+
+---
+
+# ✨ Features
+
+<div align="center">
+
+<table>
+
+<tr>
+
+<td width="25%" valign="top">
+
+## 👤 User
+
+### ✅ Completed
+
+- Register user
+- View profile
+
+</td>
+
+<td width="25%" valign="top">
+
+## 💰 Expenses
+
+### ✅ Completed
+
+- One-time expenses
+- Recurring expenses
+- Temporary expenses
+- Categories
+- Edit value
+- Cancel expense
+- Automatic updates
+- History
+
+</td>
+
+<td width="25%" valign="top">
+
+## 🎯 Goals
+
+### ✅ Completed
+
+- Create goals
+- Edit value
+- Progress tracking
+- Remaining value
+- Cancel goal
+- History
+
+</td>
+
+<td width="25%" valign="top">
+
+## 📊 Reports
+
+### ✅ Completed
+
+- Available balance
+- Expense percentage
+- Free income
+- Financial analysis
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+---
