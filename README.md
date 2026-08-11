@@ -267,28 +267,24 @@ Java 25 • Object-Oriented Programming • Layered Architecture • Git
 </table>
 
 ---
+# 🚀 Getting Started
 
-```text
-v0.1 ───────────────► Java Fundamentals
-          │
-          ▼
-v0.2 ───────────────► Object-Oriented Programming
-          │
-          ▼
-v0.3 ───────────────► Refactoring & Architecture
-          │
-          ▼
-v0.4 ───────────────► Expense Management + History
-          │
-          ▼
-v0.5 ───────────────► File Persistence
-          │
-          ▼
-v0.6 ───────────────► Database
-          │
-          ▼
-v0.7 ───────────────► Spring Boot REST API
-          │
-          ▼
-v1.0 ───────────────► Web Application
+```bash
+git clone https://github.com/ThiaggoB/sistema-financeiro-familiar.git
 ```
+
+Open the project in **IntelliJ IDEA** and run:
+
+```
+application.Main
+```
+# 👨‍💻 Author
+
+Thiaggo Bueno
+
+Software Engineering Student
+
+Backend Java Developer
+
+GitHub:
+https://github.com/ThiaggoB
