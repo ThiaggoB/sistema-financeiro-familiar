@@ -294,3 +294,5 @@ https://www.linkedin.com/in/thiaggo-bueno-94b57a38a/
 
 Gmail: 
 thiaggobueno.dev@gmail.com
+
+This project grows alongside my Software Engineering journey. Every new concept learned is reflected in the codebase.
