@@ -129,8 +129,6 @@ Next:
 ```
 ---
 
----
-
 # 🏗️ Architecture
 
 ```mermaid
