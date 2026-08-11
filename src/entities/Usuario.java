@@ -1,3 +1,8 @@
+package entities;
+
+import entities.enums.Genero;
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,18 +14,18 @@ public class Usuario {
 
     private String nome;
     private String sobrenome;
-    private int idade;
+    private LocalDate dataNascimento;
     private Double salario;
-    private int genero;
+    private Genero genero;
     private List<Meta> metas = new ArrayList<>();
     private  List<Despesa> despesas = new ArrayList<>();
 
 
-    public Usuario(String nome, String sobrenome, int idade, int genero, double salario) {
+    public Usuario(String nome, String sobrenome, LocalDate dataNascimento,Genero genero, double salario) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.salario = salario;
-        this.idade = idade;
+        this.dataNascimento = dataNascimento;
         this.genero = genero;
     }
 
@@ -43,16 +48,13 @@ public class Usuario {
         return sobrenome;
     }
 
-   public void setIdade(int idade) {
-       this.idade = idade;
-   }
-   public int getIdade() {
-       return idade;
-   }
-
    public double getSalario() {
         return salario;
    }
+
+    public Genero getGenero() {
+        return genero;
+    }
 
     public List<Despesa> getDespesas() {
         return despesas;
@@ -68,6 +70,10 @@ public class Usuario {
 
     public void adicionarDespesa(Despesa despesa) {
         despesas.add(despesa);
+    }
+
+    public void removerDespesas(int indice) {
+        despesas.remove(indice);
     }
 
     public void removerDespesas(Despesa despesa) {
@@ -92,13 +98,18 @@ public class Usuario {
         metas.add(meta);
     }
 
-    public void removerMetas(Meta meta) {
-        metas.remove(meta);
+    public void removerMetas(int indice) {
+        metas.remove(indice);
     }
 
     // ==========================
     // MÉTODOS
     // ==========================
+
+    public Period getIdade() {
+      return Period.between(dataNascimento, LocalDate.now());
+    }
+
 
     public double getSaldo() {
         return getSalario() - getSomaDespesas();
@@ -119,12 +130,5 @@ public class Usuario {
         return nome + " " + sobrenome;
     }
 
-    public String getGeneroTexto(){
-        return switch (genero) {
-            case 1 -> "Masculino";
-            case 2 -> "Feminino";
-            case 3 -> "Outro";
-            default -> "Não Informado";
-        };
-    }
 }
+
