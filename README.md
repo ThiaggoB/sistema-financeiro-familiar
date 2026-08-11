@@ -46,7 +46,7 @@ Ao invés de criar diversos projetos pequenos, a proposta é expandir continuame
 
 <tr>
 
-<td width="25%" valign="top">
+<td width="15%" valign="top">
 
 ## 👤 User
 
@@ -57,7 +57,7 @@ Ao invés de criar diversos projetos pequenos, a proposta é expandir continuame
 
 </td>
 
-<td width="25%" valign="top">
+<td width="15%" valign="top">
 
 ## 💰 Expenses
 
@@ -74,7 +74,7 @@ Ao invés de criar diversos projetos pequenos, a proposta é expandir continuame
 
 </td>
 
-<td width="25%" valign="top">
+<td width="15%" valign="top">
 
 ## 🎯 Goals
 
@@ -89,7 +89,7 @@ Ao invés de criar diversos projetos pequenos, a proposta é expandir continuame
 
 </td>
 
-<td width="25%" valign="top">
+<td width="15%" valign="top">
 
 ## 📊 Reports
 
