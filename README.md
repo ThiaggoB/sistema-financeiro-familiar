@@ -127,3 +127,46 @@ Next:
 → REST API
 → Web Interface
 ```
+---
+
+# 🏗 Architecture
+
+<div align="center">
+
+```text
+                    🚀 application
+
+                          │
+
+        ┌─────────────────┴─────────────────┐
+
+        │                                   │
+
+   ⚙ services                         🖥 view
+
+        │
+
+        ▼
+
+   📦 entities
+
+        │
+
+        ▼
+
+    🏷 enums
+```
+
+</div>
+
+<br>
+
+| Layer | Responsibility |
+|:------|:---------------|
+| 🚀 application | Application entry point |
+| ⚙ services | Business rules |
+| 🖥 view | User interaction |
+| 📦 entities | Domain models |
+| 🏷 enums | Enumerations |
+
+---
