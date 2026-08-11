@@ -1,90 +1,37 @@
-💰 Sistema Financeiro Familiar
+<div align="center">
 
-<p align="center">
+# 💰 Sistema Financeiro Familiar
 
-<b>{=html}Financial Management System built with Java</b>{=html}
+### Financial Management System built with Java
 
+Projeto desenvolvido para aplicar conceitos de **Programação Orientada a Objetos**, **Arquitetura de Software** e **boas práticas de desenvolvimento**, evoluindo continuamente conforme novos conhecimentos são adquiridos.
+
+<br>
+
+<p>
+<img src="https://img.shields.io/badge/Java-25-orange?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-In%20Development-2ea043?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OOP-Architecture-0969da?style=for-the-badge"/>
 </p>
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/Java-25-orange?style=for-the-badge"/>{=html}<img src="https://img.shields.io/badge/Status-In%20Development-success?style=for-the-badge"/>{=html}<img src="https://img.shields.io/badge/OOP-Architecture-blue?style=for-the-badge"/>{=html}<img src="https://img.shields.io/badge/Backend-Java-red?style=for-the-badge"/>{=html}
-
+<p>
+<img src="https://img.shields.io/badge/Clean_Code-✔-238636?style=flat-square"/>
+<img src="https://img.shields.io/badge/Layered_Architecture-✔-238636?style=flat-square"/>
+<img src="https://img.shields.io/badge/Polymorphism-✔-238636?style=flat-square"/>
+<img src="https://img.shields.io/badge/Inheritance-✔-238636?style=flat-square"/>
+<img src="https://img.shields.io/badge/Git-Versioned-black?style=flat-square"/>
 </p>
 
-<p align="center">
+<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&vCenter=true&width=700&lines=Backend+Java+Project;Clean+Architecture+Journey;Building+one+project+instead+of+many+small+ones"/>{=html}
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=2EA043&center=true&vCenter=true&width=700&lines=Building+a+real+Java+project...;Applying+Object-Oriented+Programming;Improving+the+architecture+every+version;Future+Spring+Boot+and+REST+API"/>
 
-</p>
+</div>
 
-📖 Sobre
+---
 
-O Sistema Financeiro Familiar é um projeto de estudos em constanteevolução para aplicar Java, POO e Arquitetura de Software em um sistemareal.
+## 📖 About
 
-✨ Funcionalidades
+**Sistema Financeiro Familiar** é um projeto de longo prazo desenvolvido para consolidar conhecimentos em Java através da evolução contínua de um único sistema.
 
-👤 Usuário    💰 Despesas     🎯 Metas          📊 Relatórios
-
-✅ Cadastro   ✅ Única        ✅ Cadastro       ✅ Saldo✅ Perfil     ✅ Recorrente   ✅ Progresso      ✅ Percentuais✅ Temporária   ✅ Histórico      ✅ Análise✅ Histórico    ✅ Cancelamento
-
-🏗 Arquitetura
-
-flowchart TD
-A[Main] --> B[Services]
-A --> C[View]
-B --> D[Entities]
-D --> E[Enums]
-
-📂 Estrutura
-
-src
-├── application
-├── entities
-│   └── enums
-├── services
-└── view
-
-🚀 Roadmap
-
-POO
-
-Herança
-
-Polimorfismo
-
-Histórico
-
-Arquitetura em camadas
-
-Persistência
-
-Banco de dados
-
-Spring Boot
-
-API REST
-
-Interface Web
-
-🛠 Tecnologias
-
-Java
-
-Git
-
-GitHub
-
-IntelliJ IDEA
-
-▶️ Como executar
-
-git clone https://github.com/ThiaggoB/sistema-financeiro-familiar.git
-
-Abra no IntelliJ IDEA e execute application.Main.
-
-👨‍💻 Autor
-
-Thiaggo Bueno
-
-GitHub: https://github.com/ThiaggoB
+Ao invés de criar diversos projetos pequenos, a proposta é expandir continuamente esta aplicação, incorporando novos conceitos aprendidos durante a graduação e os estudos independentes, mantendo uma arquitetura organizada e escalável.
